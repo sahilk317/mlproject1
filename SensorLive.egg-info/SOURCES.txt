@@ -1,0 +1,7 @@
+setup.py
+SensorLive.egg-info/PKG-INFO
+SensorLive.egg-info/SOURCES.txt
+SensorLive.egg-info/dependency_links.txt
+SensorLive.egg-info/requires.txt
+SensorLive.egg-info/top_level.txt
+src/__init__.py
