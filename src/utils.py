@@ -1,22 +1,3 @@
-# import numpy as np
-# import pandas as pd
-# import json
-# from json import loads as json_loads
-# from src.config import mongo_client
-# from src.exception import SensorException
-# from src.logger import logging
-# import sys
-
-
-# def send_csv_to_mongo(file_path:str,database_name:str, collection_name:str):
-#     try:
-#         df = pd.read_csv('aps_failure_training_set.csv')
-#         df.reset_index(drop=True, inplace=True)
-#         mongo_client[database_name][collection_name].insert_many(list(json_loads(df.T.to_json()).values()))
-
-#     except Exception as e:
-#         raise SensorException(e,sys)
-
 import numpy as np
 import pandas as pd
 import json
