@@ -1,4 +1,4 @@
-Metadata-Version: 2.1
+Metadata-Version: 2.2
 Name: SensorLive
 Version: 1.0
 Author: sahil katariya
@@ -8,3 +8,8 @@ Requires-Dist: pandas
 Requires-Dist: seaborn
 Requires-Dist: matplotlib
 Requires-Dist: scikit-learn
+Requires-Dist: pymongo
+Requires-Dist: python-dotenv
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
