@@ -13,7 +13,7 @@ class EnvironmentVariable:
 
 # Create an instance and validate
 env_var = EnvironmentVariable()
-env_var.validate()
+# env_var.validate()
 
 # Initialize MongoDB client with error handling
 try:
