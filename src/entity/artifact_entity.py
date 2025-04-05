@@ -25,3 +25,23 @@ class DataIngestionArtifact:
 
         except Exception as e:
             raise SensorException(e,sys)
+        
+
+class DataValidationArtifact:
+
+    def __init__(self,validation_status ,valid_training_file_path,valid_testing_file_path,invalid_training_file_path,invalid_testing_file_path,drift_report_file_path):
+
+
+        try:
+            self.validation_status = validation_status  
+            self.valid_training_file_path = valid_training_file_path
+            self.valid_testing_file_path = valid_testing_file_path 
+            self.invalid_training_file_path =invalid_training_file_path
+            self.invalid_testing_file_path = invalid_testing_file_path
+            self.drift_report_file_path = drift_report_file_path
+
+            logging.info("Initialized DataValidationArtifacts")
+
+        except Exception as e:
+            raise SensorException(e,sys)
+        

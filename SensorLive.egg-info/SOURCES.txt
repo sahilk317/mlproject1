@@ -27,8 +27,11 @@ src/constant/env_variable.py
 src/constant/s3_bucket.py
 src/constant/training_pipeline/__init__.py
 src/data_access/__init__.py
+src/data_access/sensor_data.py
 src/entity/__init__.py
 src/entity/artifact_entity.py
 src/entity/config_entity.py
 src/pipeline/__init__.py
 src/pipeline/training_pipeline.py
+src/utils/__init__.py
+src/utils/main_utils.py

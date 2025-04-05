@@ -10,6 +10,8 @@ Requires-Dist: matplotlib
 Requires-Dist: scikit-learn
 Requires-Dist: pymongo
 Requires-Dist: python-dotenv
+Requires-Dist: pyYAML
+Requires-Dist: dill
 Dynamic: author
 Dynamic: author-email
 Dynamic: requires-dist

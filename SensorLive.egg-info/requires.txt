@@ -5,3 +5,5 @@ matplotlib
 scikit-learn
 pymongo
 python-dotenv
+pyYAML
+dill
